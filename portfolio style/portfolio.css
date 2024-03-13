@@ -211,9 +211,11 @@ textarea{
 .hide{
   display: none;
 }
+
+
 /* For Small Devices */
 @media screen and (max-width:576px) {
-  .skills-container, .resume-container{
+  .skills-container, .resume-container, .footer{
     flex-direction: column;
     padding: 30px;
   }
@@ -229,7 +231,16 @@ textarea{
   .resume-container{
     text-align: center;
   }
+  .footer{
+    align-items: center;
+    padding: 10px;
+  }
+  .footer-column{
+    width: 100%;
+  }
 }
+
+
 /* For Medium Devices */
 @media screen and (min-width:576px) and (max-width:992px) {
   .skills-container{
