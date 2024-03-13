@@ -231,12 +231,28 @@ textarea{
   .resume-container{
     text-align: center;
   }
+  .skill{
+    text-align: center;
+  }
   .footer{
     align-items: center;
     padding: 10px;
   }
   .footer-column{
     width: 100%;
+  }
+  .social-links{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .contact-form input[type="text"], .contact-form input[type="email"],
+  textarea{
+    width: 80%;
+  }
+  #submit{
+    display: block;
+    margin: 0 auto;
   }
 }
 
@@ -256,4 +272,12 @@ textarea{
     padding: 35px;
     text-align: center;
   }
+  .footer{
+    padding: 30px;
+  }
+  .contact-form input[type="text"], .contact-form input[type="email"],
+  textarea{
+    width: 80%;
+  }
+  
 }
