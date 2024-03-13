@@ -221,3 +221,14 @@ textarea{
     padding: 35px;
   }
 }
+/* For Medium Devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+  .skills-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px;
+  }
+  #what-i-do-description{
+    padding: 35px;
+  }
+}
