@@ -264,6 +264,9 @@ textarea{
     grid-template-columns: repeat(2,1fr);
     padding: 30px;
   }
+  .skill{
+    text-align: center;
+  }
   #what-i-do-description{
     padding: 35px;
   }
@@ -278,6 +281,11 @@ textarea{
   .contact-form input[type="text"], .contact-form input[type="email"],
   textarea{
     width: 80%;
+  }
+  .social-links{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   }
   
 }
