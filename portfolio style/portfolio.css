@@ -213,12 +213,21 @@ textarea{
 }
 /* For Small Devices */
 @media screen and (max-width:576px) {
-  .skills-container{
+  .skills-container, .resume-container{
     flex-direction: column;
     padding: 30px;
   }
   #what-i-do-description{
     padding: 35px;
+  }
+  .resume-column-title{
+    text-align: center;
+  }
+  #summary-title{
+    font-size: 31px;
+  }
+  .resume-container{
+    text-align: center;
   }
 }
 /* For Medium Devices */
@@ -230,5 +239,10 @@ textarea{
   }
   #what-i-do-description{
     padding: 35px;
+  }
+  .resume-container{
+    flex-direction: column;
+    padding: 35px;
+    text-align: center;
   }
 }
