@@ -10,13 +10,11 @@ body{
   font-weight: 700;
 }
 .section-description{
-  color: var(--Dark-03, #757575);
+  color:#757575;
 text-align: center;
-font-family: "Open Sans";
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px; /* 166.667% */
 }
 
 .orange-button{
@@ -215,7 +213,7 @@ textarea{
 
 /* For Small Devices */
 @media screen and (max-width:576px) {
-  .skills-container, .resume-container, .footer{
+  .skills-container, .resume-container, .footer, .about-info-container{
     flex-direction: column;
     padding: 30px;
   }
@@ -254,6 +252,12 @@ textarea{
     display: block;
     margin: 0 auto;
   }
+  .section-description{
+    padding: 0px;
+  }
+  .about{
+    padding: 35px;
+  }
 }
 
 
@@ -287,5 +291,4 @@ textarea{
     margin: 0 auto;
     text-align: center;
   }
-  
 }
