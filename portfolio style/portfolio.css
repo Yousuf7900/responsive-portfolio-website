@@ -291,4 +291,7 @@ textarea{
     margin: 0 auto;
     text-align: center;
   }
+  .about-info-container{
+    flex-direction: column;
+  }
 }
